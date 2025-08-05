@@ -214,42 +214,42 @@
 
 //replace
 
-import java.util.Scanner;
+// import java.util.Scanner;
 
-public class Ex43{
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+// public class Ex43{
+//     public static void main(String[] args) {
+//         Scanner sc = new Scanner(System.in);
 
-        System.out.print("Enter number of elements: ");
-        int n = sc.nextInt(); //step-1
+//         System.out.print("Enter number of elements: ");
+//         int n = sc.nextInt(); //step-1
 
-        int[] arr = new int[n]; //step-2 orginal array
+//         int[] arr = new int[n]; //step-2 orginal array
 
-        System.out.println("Enter elements: "); //step-2
-        for (int i = 0; i < n; i++) {
-            arr[i] = sc.nextInt();
-        }
+//         System.out.println("Enter elements: "); //step-2
+//         for (int i = 0; i < n; i++) {
+//             arr[i] = sc.nextInt();
+//         }
         
-        //new array-step-3
-        int[] newarr = new int[n];
+//         //new array-step-3
+//         int[] newarr = new int[n];
         
-        System.out.println("Enter Index value that needed to be changed");
-        int pos=sc.nextInt();
-        // System.out.println("Enter element value");
-        // int ele=sc.nextInt();
-        if(pos<0||pos>=n){
-            System.out.println("Invalid");
-            return;}System.out.println("the value is want to change is");
-            int a=sc.nextInt();
-        for(int i=0;i<n;i++){
-            if(i==pos){
-                newarr[i]=a;
-            }else{
-                newarr[i]=arr[i];
-            }
-	}System.out.println("final array");
-    for(int i=0;i<n;i++){
-        System.out.println(newarr[i]);
-    }
-}
-}
+//         System.out.println("Enter Index value that needed to be changed");
+//         int pos=sc.nextInt();
+//         // System.out.println("Enter element value");
+//         // int ele=sc.nextInt();
+//         if(pos<0||pos>=n){
+//             System.out.println("Invalid");
+//             return;}System.out.println("the value is want to change is");
+//             int a=sc.nextInt();
+//         for(int i=0;i<n;i++){
+//             if(i==pos){
+//                 newarr[i]=a;
+//             }else{
+//                 newarr[i]=arr[i];
+//             }
+// 	}System.out.println("final array");
+//     for(int i=0;i<n;i++){
+//         System.out.println(newarr[i]);
+//     }
+// }
+// }
